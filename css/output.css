@@ -4,16 +4,22 @@
   font-weight: normal;
   src: url("../SGL.otf") format("truetype");
 }
-p {
+body {
   font-family: "SGL";
-  font-size: 25px;
+  font-size: 15px;
   color: #C9b274;
 }
 
+.navigation {
+  padding-top: 30px;
+}
 .navigation .logo {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.navigation .logo img {
+  max-width: 100%;
 }
 .navigation .menu {
   margin-top: 20px;
@@ -45,6 +51,10 @@ body {
   background: url("../img/goyardBG.jpg") no-repeat;
   transition: background 0.25s ease;
   color: #C9b274;
+}
+
+.big-wrapper {
+  margin: 0px 240px;
 }
 
 /*# sourceMappingURL=output.css.map */
