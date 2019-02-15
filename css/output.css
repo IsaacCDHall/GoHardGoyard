@@ -11,13 +11,11 @@
 .navigation .menu {
   margin-top: 20px;
   padding: 20px 0px;
-  background-image: url("../img/border_menu.png");
+  background: url("../img/border_menu.png") no-repeat center;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  max-height: 39px;
+  justify-content: center;
   align-items: center;
-  border-top: 1px solid red;
 }
 .navigation .menu a {
   color: tan;
@@ -26,9 +24,14 @@
 .navigation .menu a:hover {
   color: white;
 }
+.navigation .menu li {
+  margin: 0 11px;
+  list-style: none;
+}
 
 * {
   box-sizing: border-box;
+  color: white;
 }
 
 body {

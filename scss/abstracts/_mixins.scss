@@ -9,6 +9,11 @@
   display: flex;
   flex-direction: column;
 }
+// @mixin flex-even{
+//   width: 100%;
+//   display: flex;
+//   flex-direction: column;
+// }
 @mixin greenTag($color: tan){
   a{
     color: $color;
