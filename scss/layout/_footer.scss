@@ -4,19 +4,23 @@
   margin: 0 auto;
   // width: 960px;
   width: 100%;
-
-  @include menus;
-
-  justify-content: space-between;
-
+  // height: 300px;
+  text-align: center;
+  @include flex-wide;
+  position: relative;
+  // justify-content: space-between;
 }
 .foot-links{
   @include whiteHover(white);
   li{
     list-style-type: none;
   }
-
 }
+.footer-nav{
+  text-align: center;
+  background: url('../img/border_footer.png') center 0 no-repeat;
+}
+
 //
 // .left-foot{
 //   @include whiteHover(white);
