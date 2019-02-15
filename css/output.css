@@ -1,0 +1,24 @@
+* {
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+@media screen and (min-width: 621px) {
+  p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header {
+    max-width: 1300px;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */
