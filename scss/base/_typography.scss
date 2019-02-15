@@ -6,7 +6,7 @@
 }
 body {
   font-family: 'SGL';
-  font-size: 15px;
+  font-size: 11px;
   color: $fontColor;
 }
 // p {
@@ -15,7 +15,13 @@ body {
 //   color: red;
 // }
 
-// .middle {
-//   font-family: Georgia, serif;
-//   font-size: 13px;
+// .p-wrapper {
+//   p{
+//     color: green;
+//     font: 15px/24px Georgia, serif;
+//     text-align: center;
+//     width: 595px;
+//
+//   }
+//
 // }
