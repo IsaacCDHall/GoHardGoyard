@@ -10,18 +10,26 @@ body {
   color: #C9b274;
 }
 
-.navigation {
+.p-wrapper p {
+  color: white;
+  font: 15px/24px Georgia, serif;
+}
+
+.content-wrapper {
+  margin-bottom: 0px;
+}
+.content-wrapper .navigation {
   padding-top: 30px;
 }
-.navigation .logo {
+.content-wrapper .navigation .logo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.navigation .logo img {
+.content-wrapper .navigation .logo img {
   max-width: 100%;
 }
-.navigation .menu {
+.content-wrapper .navigation .menu {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -31,14 +39,14 @@ body {
   padding: 20px 0px;
   background: url("../img/border_menu.png") no-repeat center;
 }
-.navigation .menu a {
+.content-wrapper .navigation .menu a {
   color: #C9b274;
   text-decoration: none;
 }
-.navigation .menu a:hover {
+.content-wrapper .navigation .menu a:hover {
   color: white;
 }
-.navigation .menu li {
+.content-wrapper .navigation .menu li {
   margin: 0 11px;
 }
 
@@ -48,7 +56,7 @@ body {
 }
 
 body {
-  background: url("../img/goyardBG.jpg") no-repeat;
+  background: url("../img/goyardBG.jpg") no-repeat #000;
   transition: background 0.25s ease;
   color: #C9b274;
 }
@@ -58,17 +66,7 @@ body {
 }
 
 .home-wrapper {
-  margin: 20px auto 55px;
-}
-.home-wrapper .p-wrapper {
-  margin: 0 auto 50px auto;
-  display: flex;
-  justify-content: center;
-  font-size: 15px;
-  line-height: 24px;
-  font-family: Georgia, serif;
-  width: 495px;
-  text-align: center;
+  margin: 0 auto 50px;
 }
 .home-wrapper .slideshow {
   display: flex;
@@ -83,7 +81,7 @@ body {
   list-style: none;
   justify-content: space-around;
   position: relative;
-  height: 64px;
+  height: 58px;
   background: url("../img/border_slider.png") no-repeat bottom;
 }
 .home-wrapper .menuTwo a {
@@ -92,6 +90,30 @@ body {
 }
 .home-wrapper .menuTwo a:hover {
   color: white;
+}
+.home-wrapper .p-wrapper {
+  margin: 35px auto 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 595px;
+}
+
+.social-media {
+  font-size: 0;
+  margin: 0 auto 50px;
+  padding: 65px 0;
+  text-align: center;
+  background: url("../img/border_diamond.png") center top no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media img {
+  width: 300px;
+  height: 169px;
+  margin: 0px 15px;
 }
 
 /*# sourceMappingURL=output.css.map */
