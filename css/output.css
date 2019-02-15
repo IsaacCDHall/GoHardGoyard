@@ -60,6 +60,16 @@ body {
 .home-wrapper {
   margin: 20px auto 55px;
 }
+.home-wrapper .p-wrapper {
+  margin: 0 auto 50px auto;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: Georgia, serif;
+  width: 495px;
+  text-align: center;
+}
 .home-wrapper .slideshow {
   display: flex;
   justify-content: center;
@@ -82,17 +92,6 @@ body {
 }
 .home-wrapper .menuTwo a:hover {
   color: white;
-}
-.home-wrapper .p-wrapper {
-  margin: 0 auto 50px auto;
-  display: flex;
-  justify-content: center;
-}
-.home-wrapper .p-wrapper p {
-  color: orange;
-  font: 15px/24px Georgia, serif;
-  text-align: center;
-  width: 495px;
 }
 
 /*# sourceMappingURL=output.css.map */
