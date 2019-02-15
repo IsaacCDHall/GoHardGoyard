@@ -1,4 +1,21 @@
-* {
-  font-family: Georgia, serif;
-  font-size: 13px;
+@font-face {
+  font-family: 'SGL';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../SGL.otf') format('truetype');
 }
+p {
+  font-family: 'SGL';
+  font-size: 25px;
+  color: $fontColor;
+}
+// p {
+//   font-family: 'SGL', serif;
+//   font-size: 48px;
+//   color: red;
+// }
+
+// .middle {
+//   font-family: Georgia, serif;
+//   font-size: 13px;
+// }

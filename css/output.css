@@ -1,6 +1,13 @@
-* {
-  font-family: Georgia, serif;
-  font-size: 13px;
+@font-face {
+  font-family: "SGL";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../SGL.otf") format("truetype");
+}
+p {
+  font-family: "SGL";
+  font-size: 25px;
+  color: #C9b274;
 }
 
 .navigation .logo {
@@ -18,7 +25,7 @@
   align-items: center;
 }
 .navigation .menu a {
-  color: tan;
+  color: #C9b274;
   text-decoration: none;
 }
 .navigation .menu a:hover {
@@ -31,11 +38,13 @@
 
 * {
   box-sizing: border-box;
-  color: white;
+  color: #C9b274;
 }
 
 body {
-  background-color: black;
+  background: url("../img/goyardBG.jpg") no-repeat;
+  transition: background 0.25s ease;
+  color: #C9b274;
 }
 
 /*# sourceMappingURL=output.css.map */

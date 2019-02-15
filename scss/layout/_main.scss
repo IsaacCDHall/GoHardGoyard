@@ -1,11 +1,14 @@
 * {
   box-sizing: border-box;
   // border: 1px solid red;
-  color: white;
+  color: $fontColor;
 }
 body{
-  background-color: black;
+  background: url('../img/goyardBG.jpg') no-repeat;
+  transition: background 0.25s ease;
+  color: $fontColor;
 }
+
 // @media screen and (min-width: 621px) {
 //   p{
 //     font-size: 15px;
