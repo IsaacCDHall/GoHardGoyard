@@ -1,22 +1,25 @@
 * {
-  box-sizing: border-box;
-  border: 1px solid red
+  // box-sizing: border-box;
+  // border: 1px solid red;
+  // color: white;
 }
-
-@media screen and (min-width: 621px) {
-  p{
-    font-size: 15px;
-    line-height: 24px;
-    margin-bottom: 25px;
-  }
+body{
+  background-color: black;
 }
-@media screen and (min-width:1024px) {
-  .header{
-    max-width: 1300px;
-  }
-  .logo{
-    img{
-      // min-height: 75%; work here
-    }
-  }
-}
+// @media screen and (min-width: 621px) {
+//   p{
+//     font-size: 15px;
+//     line-height: 24px;
+//     margin-bottom: 25px;
+//   }
+// }
+// @media screen and (min-width:1024px) {
+//   .header{
+//     max-width: 1300px;
+//   }
+//   .logo{
+//     img{
+//       // min-height: 75%; work here
+//     }
+//   }
+// }

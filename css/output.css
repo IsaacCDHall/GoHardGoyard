@@ -3,22 +3,36 @@
   font-size: 13px;
 }
 
-* {
-  box-sizing: border-box;
-  border: 1px solid red;
+.navigation .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation .menu {
+  margin-top: 20px;
+  padding: 20px 0px;
+  background-image: url("../img/border_menu.png");
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-height: 39px;
+  align-items: center;
+  border-top: 1px solid red;
+}
+.navigation .menu a {
+  color: tan;
+  text-decoration: none;
+}
+.navigation .menu a:hover {
+  color: white;
 }
 
-@media screen and (min-width: 621px) {
-  p {
-    font-size: 15px;
-    line-height: 24px;
-    margin-bottom: 25px;
-  }
+* {
+  box-sizing: border-box;
 }
-@media screen and (min-width: 1024px) {
-  .header {
-    max-width: 1300px;
-  }
+
+body {
+  background-color: black;
 }
 
 /*# sourceMappingURL=output.css.map */
