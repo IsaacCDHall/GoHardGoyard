@@ -28,9 +28,11 @@ _Contact at isaacdehall@gmail.com_
 _This website uses HTML, CSS, and SASS_
 
 ### Screenshots
-![Original Site](img/fullPage.png?raw=true "Original Website")
-![My Site](img/mine.png?raw=true "My Website")
-![My Site bottom](img/mine2.png?raw=true "My Website")
+Original ![Original Site](img/fullPage.png?raw=true "Original Website")
+Replica Top![My Site](img/mine.png?raw=true "My Website")
+Replica Bottom![My Site bottom](img/mine2.png?raw=true "My Website")
+Replica Mobile![My Site bottom](img/phoneMedia.png?raw=true "My Website")
+
 
 ### License
 
