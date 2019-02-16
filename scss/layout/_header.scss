@@ -1,14 +1,17 @@
 .content-wrapper{
   margin-bottom: 0px;
   .navigation{
-    padding-top: 30px;
     .logo{
       @include flex-center;
       // display:inline-flex;
       // justify-content: center;
       // align-items: center;
+      padding-top: 30px;
+      margin: 0 0 28px;
+      min-height: 34px;
+
       img{
-        max-width: 100%;
+        max-width: 99%;
       }
     }
     .menu{
