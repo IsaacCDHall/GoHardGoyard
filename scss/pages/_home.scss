@@ -1,8 +1,12 @@
 .home-wrapper{
   margin:0 auto 50px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 960px;
   .slideshow{
     @include flex-center;
     width: 100%;
+
   }
   .menuTwo{
     @include menus;
@@ -19,18 +23,20 @@
     @include flex-center;
     text-align: center;
     // font: 15px/24px Georgia, serif;
-    width: 595px;
+    max-width: 595px;
   }
 }
 .social-media{
   font-size: 0;
-  width: 100%;
+  max-width: 990px;
+  @include flex-center;
+  flex-flow: row wrap;
   // margin:0 auto 50px;
   // margin: 0 -15px;
   padding: 65px 0;
   text-align: center;
   background: url('../img/border_diamond.png') center top no-repeat;
-  @include flex-center;
+  margin: 0 -15px;
   img{
     width: 300px;
     height: 169px;

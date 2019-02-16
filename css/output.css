@@ -29,6 +29,9 @@ body {
 
 .content-wrapper {
   margin-bottom: 0px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 960px;
 }
 .content-wrapper .navigation .logo {
   display: flex;
@@ -80,6 +83,9 @@ body {
 
 .big-wrapper {
   margin: 0px 240px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -154,6 +160,9 @@ body {
 
 .home-wrapper {
   margin: 0 auto 50px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 960px;
 }
 .home-wrapper .slideshow {
   display: flex;
@@ -190,18 +199,20 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 595px;
+  max-width: 595px;
 }
 
 .social-media {
   font-size: 0;
-  width: 100%;
-  padding: 65px 0;
-  text-align: center;
-  background: url("../img/border_diamond.png") center top no-repeat;
+  max-width: 990px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+  padding: 65px 0;
+  text-align: center;
+  background: url("../img/border_diamond.png") center top no-repeat;
+  margin: 0 -15px;
 }
 .social-media img {
   width: 300px;
