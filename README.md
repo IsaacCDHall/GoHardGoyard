@@ -29,9 +29,9 @@ _This website uses HTML, CSS, and SASS_
 
 ### Screenshots
 Original ![Original Site](img/fullPage.png?raw=true "Original Website")
-Replica Top![My Site](img/mine.png?raw=true "My Website")
-Replica Bottom![My Site bottom](img/mine2.png?raw=true "My Website")
-Replica Mobile![My Site bottom](img/phoneMedia.png?raw=true "My Website")
+Replica Site![My Site](img/replicaSiteLarge.png?raw=true "My Website")
+
+Replica Mobile![My Site bottom](img/replicaSiteSmall.png?raw=true "My Website")
 
 
 ### License
