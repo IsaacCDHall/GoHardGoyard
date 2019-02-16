@@ -11,7 +11,7 @@ _Link to viewable webpage https://isaaccdhall.github.io/GoHardGoyard/_
 
 ## Setup/Installation Requirements
 
-* _Download repository from https://github.com/IsaacCDHall/GoHardGoyard
+* _Download repository from https://github.com/IsaacCDHall/GoHardGoyard_
 * _Open index.html using your browser of choice_
 * _If you'd like to alter or see the code for the project, after downloading open the folder up in your favorite code editor._
 
