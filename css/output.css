@@ -183,6 +183,7 @@ body {
 .footer-nav {
   text-align: center;
   background: url("../img/border_footer.png") center 0 no-repeat;
+  width: 100%;
 }
 .footer-nav p {
   color: #C9b274;
