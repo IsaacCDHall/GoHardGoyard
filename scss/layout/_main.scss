@@ -10,6 +10,9 @@ body{
 }
 .big-wrapper{
   margin: 0px 240px;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1024px){

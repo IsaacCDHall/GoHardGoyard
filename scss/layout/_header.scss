@@ -1,5 +1,8 @@
 .content-wrapper{
   margin-bottom: 0px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 960px;
   .navigation{
     .logo{
       @include flex-center;
