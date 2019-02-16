@@ -29,8 +29,8 @@ _This website uses HTML, CSS, and SASS_
 
 ### Screenshots
 ![Original Site](img/fullPage.png?raw=true "Original Website")
-![My Site](img/mine.jpg?raw=true "My Website")
-![My Site bottom](img/mine2.jpg?raw=true "My Website")
+![My Site](img/mine.png?raw=true "My Website")
+![My Site bottom](img/mine2.png?raw=true "My Website")
 
 ### License
 
