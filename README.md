@@ -1,13 +1,13 @@
-# _Princess Cruise Clone_
+# _GoYard Clone_
 
-#### _Clone of the Princess Cruise website, Last Updated 02-15-19_
+#### _Clone of the Goyard website, Last Updated 02-15-19_
 
 #### By _**Isaac Hall**_
 
 ## Description
 
 _This website is a clone of the front page of https://www.goyard.com/en_
-_Link to viewable webpage https://IsaacCDHall.github.io/GoHardGoyard/_
+_Link to viewable webpage https://isaaccdhall.github.io/GoHardGoyard/_
 
 ## Setup/Installation Requirements
 
@@ -28,8 +28,9 @@ _Contact at isaacdehall@gmail.com_
 _This website uses HTML, CSS, and SASS_
 
 ### Screenshots
-![Alt text](img/fullPage.png?raw=true "Original Website")
-![Alt text](img/mine.jpg?raw=true "My Website")
+![Original Site](img/fullPage.png?raw=true "Original Website")
+![My Site](img/mine.jpg?raw=true "My Website")
+![My Site bottom](img/mine2.jpg?raw=true "My Website")
 
 ### License
 
