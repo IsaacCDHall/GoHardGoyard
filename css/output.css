@@ -88,14 +88,31 @@ body {
   justify-content: center;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 426px) {
-  .big-wrapper {
-    margin: 0;
+@media screen and (min-width: 1900px) {
+  .big-wrapper div.content-wrapper {
+    width: 1900px;
+  }
+  .big-wrapper div.home-wrapper {
+    width: 1900px;
+  }
+  .big-wrapper div.social-media {
+    max-width: 1900px;
+    width: 1900px;
+    justify-content: space-between;
+  }
+  .big-wrapper div.footer-nav {
+    max-width: 1900px;
+    width: 1900px;
   }
 }
 @media screen and (max-width: 1437px) and (min-width: 1025px) {
   .big-wrapper {
     margin: 0 120px;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 426px) {
+  .big-wrapper {
+    margin: 0;
   }
 }
 @media screen and (max-width: 426px) {
