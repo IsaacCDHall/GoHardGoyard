@@ -88,24 +88,54 @@ body {
   justify-content: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 426px) {
   .big-wrapper {
     margin: 0;
   }
 }
-@media screen and (min-width: 425) {
+@media screen and (max-width: 1437px) and (min-width: 1025px) {
+  .big-wrapper {
+    margin: 0 120px;
+  }
+}
+@media screen and (max-width: 426px) {
+  body {
+    background-image: none;
+  }
+
   .big-wrapper {
     margin: 0;
   }
-  .big-wrapper .footer {
+  .big-wrapper #menuMobile {
+    display: flex;
+    flex-flow: column wrap;
+    background-image: none;
+  }
+  .big-wrapper #menuMobile li {
+    border-top: solid 1px #65593a;
+    line-height: 100px;
+    width: 100%;
+    text-align: center;
+  }
+  .big-wrapper div.social-media {
     display: none;
   }
-  .big-wrapper .social-media {
+  .big-wrapper div.footer {
     display: none;
+  }
+  .big-wrapper div.footer-nav {
+    display: none;
+  }
+  .big-wrapper ul.menuTwo {
+    display: none;
+  }
+  .big-wrapper div.p-wrapper {
+    border-top: solid 1px #65593a;
+    padding: 30px 15px 0;
   }
 }
 .footer {
-  padding: 27px 0 5px;
+  padding: 27px 0 20px;
   background: url("../img/border_slider.png") center 0 no-repeat;
   margin: 0 auto;
   width: 100%;
@@ -115,6 +145,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   position: relative;
+  justify-content: space-evenly;
 }
 
 .foot-links p {

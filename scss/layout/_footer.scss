@@ -1,5 +1,5 @@
 .footer{
-  padding: 27px 0 5px;
+  padding: 27px 0 20px;
   background: url('../img/border_slider.png') center 0 no-repeat;
   margin: 0 auto;
   // width: 960px;
@@ -8,6 +8,7 @@
   text-align: center;
   @include flex-wide;
   position: relative;
+  justify-content: space-evenly;
   // justify-content: space-between;
 }
 .foot-links{
