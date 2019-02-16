@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body{
   background: url('../img/goyardBG.jpg') no-repeat #000;
   // color: $fontColor;
@@ -9,39 +10,19 @@ body{
   margin: 0px 240px;
 }
 
-// @media screen and (min-width: 621px){
-//   .menuTwo li a {
-//       position: absolute;
-//       top: 50%;
-//       left: 50%;
-//       width: 100%;
-//       padding: 0 35px;
-//       transition: color .2s ease-in-out;
-//       transform: translate(-50%,-50%);
-//   }
-// }
-// @media screen and (max-width:621px) {
-//   .menuTwo li a {
-//     color: inherit;
-//     padding: 0 15px;
-//     box-sizing: border-box;
-//     transition: all .2s ease-in-out;
-//   }
-// }
-// @media screen and (min-width: 621px) {
-//   p{
-//     font-size: 15px;
-//     line-height: 24px;
-//     margin-bottom: 25px;
-//   }
-// }
-// @media screen and (min-width:1024px) {
-//   .header{
-//     max-width: 1300px;
-//   }
-//   .logo{
-//     img{
-//       // min-height: 75%; work here
-//     }
-//   }
-// }
+@media screen and (max-width: 1024px){
+  .big-wrapper{
+    margin: 0;
+  }
+}
+@media screen and (min-width: 425){
+  .big-wrapper{
+    margin: 0;
+    .footer{
+      display: none;
+    }
+    .social-media{
+      display: none;
+    }
+  }
+}

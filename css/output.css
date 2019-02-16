@@ -80,6 +80,22 @@ body {
   margin: 0px 240px;
 }
 
+@media screen and (max-width: 1024px) {
+  .big-wrapper {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 425) {
+  .big-wrapper {
+    margin: 0;
+  }
+  .big-wrapper .footer {
+    display: none;
+  }
+  .big-wrapper .social-media {
+    display: none;
+  }
+}
 .footer {
   padding: 27px 0 5px;
   background: url("../img/border_slider.png") center 0 no-repeat;
@@ -177,6 +193,7 @@ body {
 
 .social-media {
   font-size: 0;
+  width: 100%;
   padding: 65px 0;
   text-align: center;
   background: url("../img/border_diamond.png") center top no-repeat;
