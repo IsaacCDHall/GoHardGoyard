@@ -10,15 +10,21 @@ body {
   color: #C9b274;
 }
 
+.p-wrapper p {
+  color: white;
+  font: 15px/24px Georgia, serif;
+}
+
 .footer {
   font-family: "SGL", Tahoma;
   font-size: 9px;
   line-height: 25px;
 }
 
-.p-wrapper p {
-  color: white;
-  font: 15px/24px Georgia, serif;
+.footer-nav .bottom li {
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  font-weight: 700;
 }
 
 .content-wrapper {
@@ -48,6 +54,9 @@ body {
 .content-wrapper .navigation .menu p {
   color: #C9b274;
 }
+.content-wrapper .navigation .menu li {
+  list-style-type: none;
+}
 .content-wrapper .navigation .menu a {
   color: #C9b274;
   text-decoration: none;
@@ -61,13 +70,10 @@ body {
 
 * {
   box-sizing: border-box;
-  color: #C9b274;
 }
 
 body {
   background: url("../img/goyardBG.jpg") no-repeat #000;
-  transition: background 0.25s ease;
-  color: #C9b274;
 }
 
 .big-wrapper {
@@ -90,6 +96,9 @@ body {
 .foot-links p {
   color: white;
 }
+.foot-links li {
+  list-style-type: none;
+}
 .foot-links a {
   color: #C9b274;
   text-decoration: none;
@@ -97,13 +106,32 @@ body {
 .foot-links a:hover {
   color: white;
 }
-.foot-links li {
-  list-style-type: none;
-}
 
 .footer-nav {
   text-align: center;
   background: url("../img/border_footer.png") center 0 no-repeat;
+}
+.footer-nav p {
+  color: #C9b274;
+}
+.footer-nav li {
+  list-style-type: none;
+}
+.footer-nav a {
+  color: #C9b274;
+  text-decoration: none;
+}
+.footer-nav a:hover {
+  color: white;
+}
+.footer-nav .bottom {
+  display: flex;
+  justify-content: center;
+}
+.footer-nav .bottom li {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: 20px 15px 0 20px;
 }
 
 .home-wrapper {
@@ -128,6 +156,9 @@ body {
 .home-wrapper .menuTwo p {
   color: #C9b274;
 }
+.home-wrapper .menuTwo li {
+  list-style-type: none;
+}
 .home-wrapper .menuTwo a {
   color: #C9b274;
   text-decoration: none;
@@ -146,7 +177,6 @@ body {
 
 .social-media {
   font-size: 0;
-  margin: 0 auto 50px;
   padding: 65px 0;
   text-align: center;
   background: url("../img/border_diamond.png") center top no-repeat;

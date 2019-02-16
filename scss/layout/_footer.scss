@@ -12,17 +12,19 @@
 }
 .foot-links{
   @include whiteHover(white);
-  li{
-    list-style-type: none;
-  }
+
 }
 .footer-nav{
   text-align: center;
   background: url('../img/border_footer.png') center 0 no-repeat;
+  @include whiteHover;
+  .bottom{
+    display: flex;
+    justify-content: center;
+    li{
+      padding-top: 3px;
+      padding-bottom: 3px;
+      margin: 20px 15px 0 20px;
+    }
+  }
 }
-
-//
-// .left-foot{
-//   @include whiteHover(white);
-//   text-decoration: line-through;
-// }

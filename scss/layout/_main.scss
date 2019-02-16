@@ -1,19 +1,14 @@
 * {
   box-sizing: border-box;
-  // border: 1px solid red;
-  color: $fontColor;
 }
 body{
   background: url('../img/goyardBG.jpg') no-repeat #000;
-  transition: background 0.25s ease;
-  color: $fontColor;
+  // color: $fontColor;
 }
 .big-wrapper{
   margin: 0px 240px;
 }
-// li{
-//   list-style-type: none;
-// }
+
 // @media screen and (min-width: 621px){
 //   .menuTwo li a {
 //       position: absolute;
