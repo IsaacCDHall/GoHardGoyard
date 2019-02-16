@@ -30,16 +30,16 @@ body {
 .content-wrapper {
   margin-bottom: 0px;
 }
-.content-wrapper .navigation {
-  padding-top: 30px;
-}
 .content-wrapper .navigation .logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 30px;
+  margin: 0 0 28px;
+  min-height: 34px;
 }
 .content-wrapper .navigation .logo img {
-  max-width: 100%;
+  max-width: 99%;
 }
 .content-wrapper .navigation .menu {
   display: flex;
@@ -70,6 +70,8 @@ body {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
