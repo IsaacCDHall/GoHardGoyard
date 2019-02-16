@@ -6,7 +6,6 @@
   .slideshow{
     @include flex-center;
     width: 100%;
-
   }
   .menuTwo{
     @include menus;
@@ -14,15 +13,12 @@
     justify-content: space-around;
     position: relative;
     height: 58px;
-    // // margin: 0 auto;
-    // border: solid 1px red;
     background: url('../img/border_slider.png') no-repeat bottom;
   }
   .p-wrapper{
     margin: 35px auto 50px auto;
     @include flex-center;
     text-align: center;
-    // font: 15px/24px Georgia, serif;
     max-width: 595px;
   }
 }

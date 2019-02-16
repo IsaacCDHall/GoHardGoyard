@@ -6,13 +6,9 @@
   .navigation{
     .logo{
       @include flex-center;
-      // display:inline-flex;
-      // justify-content: center;
-      // align-items: center;
       padding-top: 30px;
       margin: 0 0 28px;
       min-height: 34px;
-
       img{
         max-width: 99%;
       }
@@ -24,7 +20,6 @@
       margin-top: 20px;
       padding:20px 0px;
       background: url('../img/border_menu.png') no-repeat center;
-      // max-height: 39px;
       li{
         margin: 0 11px;
       }
