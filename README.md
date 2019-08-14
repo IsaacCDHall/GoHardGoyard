@@ -26,7 +26,7 @@ _Contact at isaacdehall@gmail.com_
 
 ## Technologies Used
 
-_This website uses HTML, CSS, and SASS_
+_This website uses HTML, CSS, and SCSS/SASS with 7-1 architecture_
 
 ### Screenshots
 Original ![Original Site](img/fullPage.png?raw=true "Original Website")
